@@ -21,3 +21,6 @@
       TRAINER: "Haritha"
     ansible.builtin.debug:
       msg: "Hi, Iam learning {{COURSE}}, Duration: {{DURATION}}, Trainer: {{TRAINER}}"
+
+  #1. first preference is always command line/args
+  #2.
