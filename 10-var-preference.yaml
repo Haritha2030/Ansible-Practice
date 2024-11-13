@@ -16,11 +16,11 @@
   tasks:
   - name: print the information
     vars:
-      COURSE: "Devops with AWS form TASK level"
+      #COURSE: "Devops with AWS form TASK level"
       DURATION: "220HRS"
       TRAINER: "Haritha"
     ansible.builtin.debug:
       msg: "Hi, Iam learning {{COURSE}}, Duration: {{DURATION}}, Trainer: {{TRAINER}}"
 
   #1. first preference is always command line/args
-  #2.
+  #2. Task level
