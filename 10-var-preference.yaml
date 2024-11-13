@@ -4,6 +4,8 @@
     COURSE: "Devops with AWS form play level"
     DURATION: "220HRS"
     TRAINER: "Haritha"
+  vars_files:
+  - vars.yaml
   vars_prompt:
   - name: COURSE
     prompt: Please enter the course name
@@ -24,3 +26,4 @@
 
   #1. first preference is always command line/args
   #2. Task level
+  #3. Prompt
