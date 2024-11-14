@@ -38,4 +38,4 @@
         duration: 120
         trainer: "Haritha"
     ansible.buitlin.debug:
-      msg: "{{ course | dict2items}}"
+      msg: "{{ course | dict2items }}"
