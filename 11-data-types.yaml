@@ -1,5 +1,6 @@
 - name: devops courses information
   hosts: local
+  connection: local # for localhosts
   vars:
     course: "Devops with AWS" #String
     duration: 120 #number
